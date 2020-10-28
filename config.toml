@@ -16,15 +16,13 @@ theme = "hugo-theme-air"
   description = "This is a website created to help students and people interest in computer networking."
   cover = "images/user.jpeg"
   author = "Foxtrot"
-  authorlocation = ""
-  authorwebsite = "https://syui.cf/hugo-theme-air"
-  bio= "my bio"
+  bio= ""
   logo = "images/user.jpeg"
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""
-  githubName = "Foxtrot"
-  twitterName = ""
+  githubName = "indiafoxtrot"
+  twitterName = "RexFoxtrot"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = true
   mainSections = ["post"]

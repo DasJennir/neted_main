@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Explainations on NETED</title>
+    <link>/tags/explainations/</link>
+    <description>Recent content in Explainations on NETED</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/explainations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is computer networking ?</title>
+      <link>/posts/computer-network/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/computer-network/</guid>
+      <description>What is computing networking ? in fact that is a very complex question to be answered if we consider ever aspect of it, but we can sum it up with the following: Explanation:
+A computer network is a digital telecommunications network for sharing resources between nodes (computer, laptops, servers, celphones, printers&amp;hellip;) which are computing devices that use a common telecommunications technology.
+Data tranmission between nodes is supported over data links consisting of physical cable media, such as twisted pait or fibre-optic cables (layer 1), or by wireless methods, such as Wi-Fi, Bluetooth, microwave transmission, or free-space optical communication.</description>
+    </item>
+    
+  </channel>
+</rss>

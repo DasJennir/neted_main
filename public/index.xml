@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NETED</title>
+    <link>/</link>
+    <description>Recent content on NETED</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is computer networking ?</title>
+      <link>/posts/computer-network/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/computer-network/</guid>
+      <description>What is computing networking ? in fact that is a very complex question to be answered if we consider ever aspect of it, but we can sum it up with the following: Explanation:
+A computer network is a digital telecommunications network for sharing resources between nodes (computer, laptops, servers, celphones, printers&amp;hellip;) which are computing devices that use a common telecommunications technology.
+Data tranmission between nodes is supported over data links consisting of physical cable media, such as twisted pait or fibre-optic cables (layer 1), or by wireless methods, such as Wi-Fi, Bluetooth, microwave transmission, or free-space optical communication.</description>
+    </item>
+    
+    <item>
+      <title>What is the OSI model</title>
+      <link>/posts/osi-model/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/osi-model/</guid>
+      <description>The OSI model is a table which network engenieers have created to facilitate the interpretation of the various computer networking &amp;ldquo;steps&amp;rdquo; that takes places though the whole process of sending data to a node to another. Abstracting it in a way that makes more sense to people which are not used to this subject or students that are startining to learn about it.
+Short History, How the model was created:</description>
+    </item>
+    
+    <item>
+      <title>Layer 1 OSI Model</title>
+      <link>/posts/layer-one/</link>
+      <pubDate>Sat, 12 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>/posts/layer-one/</guid>
+      <description>The OSI model has been already explained on this website if you are not sure what this is I highly suggest you to have a look there before you start reading this article.
+Layer 1 :
+The physical layer is the first and lowest layer of the OSI model. It represents the hardware involved during the tranports of bits (data) though a computing network. Examples of devices from the first layer are copper cables, hubs, and NICs (network interface card).</description>
+    </item>
+    
+  </channel>
+</rss>
