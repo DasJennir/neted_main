@@ -1,5 +1,5 @@
 +++
-date = "2014-07-12T10:54:24+02:00"
+date = "2020-10-28"
 draft = false
 title = "Layer 1 OSI Model"
 slug = "layer-one"
