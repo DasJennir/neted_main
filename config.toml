@@ -1,8 +1,8 @@
 LanguageCode= "en-US"
 Title= "NETED"
-paginate = 5
+paginate = 3
 DisqusShortname = ""
-Copyright = "All rights reserved - 2016"
+Copyright = "All rights reserved - 2020"
 canonifyurls = true
 theme = "hugo-theme-air"
 
