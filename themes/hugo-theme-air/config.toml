@@ -1,4 +1,4 @@
-BaseUrl= "https://neted.network"
+BaseUrl= "//neted.network"
 LanguageCode= "en-US"
 Title= "NETE"
 paginate = 5
