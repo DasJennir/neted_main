@@ -13,7 +13,7 @@ canonifyurls = true
     post = "/post/:year/:month/:day/:slug"
 
 [params]
-  description = "This is a website created to help students and people interest in computer network to solve their questions"
+  description = "This is a website helps students and people interest in computer network to solve their problems and teach exciting what is neccessary to nail your IT  carrier"
   cover = "images/user.jpeg"
   author = "rexfoxtrot"
   bio= "my bio"

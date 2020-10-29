@@ -1,7 +1,7 @@
 LanguageCode= "en-US"
 Title= "NETED"
 paginate = 3
-DisqusShortname = ""
+DisqusShortname = "neted."
 Copyright = "All rights reserved - 2020"
 canonifyurls = true
 theme = "hugo-theme-air"
@@ -13,10 +13,9 @@ theme = "hugo-theme-air"
     post = "/post/:year/:month/:day/:slug"
 
 [params]
-  description = "This is a website created to help students and people interest in computer networking."
+  description = "This is a website helps students and people interest in computer network to solve their problems and teach exciting what is neccessary to nail your IT  carrier"
   cover = "images/user.jpeg"
   author = "Foxtrot"
-  bio= ""
   logo = "images/user.jpeg"
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
