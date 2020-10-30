@@ -1,7 +1,7 @@
 +++
 date = "2020-10-30"
 draft = false
-title = "What is the TCP/IP model and why we are adopting that instead of the OSI"
+title = "What is the TCP/IP model and why are people adopting it over OSI"
 slug = "tcp-ip-model"
 tags = ["Networking","OSI","Model"]
 image = ""
@@ -17,9 +17,9 @@ This model was created by IETF RFC 1122, Internet STD 3 (1989) (I will be provid
 
 ![TCP/IP model](https://1.bp.blogspot.com/-gdZOMP_8Et4/WTkK6gAKRQI/AAAAAAAACzw/XhDjcUcKGhACYw2URSTEqty4Q7hVOs76ACLcB/s1600/Screen%2BShot%2B2017-06-08%2Bat%2B1.59.05%2BPM.png)
 
-Some models nowadays even adobt only 3 layers like the Arpanet model, but we mostly use the TCP/IP model as refference nowadays. Layers 7,6,5 were not really the biggest concern for us network engineers or enthusiastics, only the first four layers were being mostly used. Remember that the reason why we have a model is to get a complex problem and brake it down into smaller pieces to make it as clear as possible for people to undersatnad. So the adoption of one model over the other is just because it is simplier.
+Some models nowadays even adobt only 3 layers like the Arpanet model, but we mostly use the TCP/IP model as refference nowadays. Layers 7,6,5 were not really the biggest concern for us network engineers or enthusiastics, only the first four layers were being mostly used. Remember that the reason why we have a model is to get a complex problem and brake it down into smaller pieces to make it as clear as possible for people to undersatnad. So the adoption of one model over the other is just because people saw it was simplier.
 
-Is one better than the other ? not really in the end we end up having the same thing the only difference being the amount of names that you have to memorize :p. Imagine it like a networking blueprint each person will specialize in one area like trasport and someone else into data link, in the end the model doesn't matter because the abstraction ends up being the same. Imagine a situation which a software engeenier (layer 7,6,5) would have something related to a network engeniers (layer 1,2,3,4) and vice versa,the result would be a disaster, the models are just there to abstract what decision each person will do in the end !
+Is one better than the other ? not really, in the end we end up having the same thing the only difference being the amount of names that you have to memorize :p. Imagine it like a networking blueprint each person will specialize in one area like trasport and someone else into data link, in the end the model doesn't matter because the abstraction ends up being the same. Imagine a situation which a software engeenier (layer 7,6,5) would have something related to a network engeeniers (layer 1,2,3,4) and vice versa,the result would be a disaster, the models are just there to abstract what decision each person does in the end of the day !
 
 References:
 
