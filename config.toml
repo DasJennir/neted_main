@@ -16,7 +16,7 @@ theme = "hugo-theme-air"
   description = "This is a website helps students and people interest in computer network to solve their problems and teach exciting what is neccessary to nail your IT  carrier"
   cover = "images/user.jpeg"
   author = "Foxtrot"
-  logo = "images/user.jpeg"
+  logo = ""
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""

@@ -35,7 +35,7 @@
     
     <link rel="stylesheet" type="text/css" href="https://www.neted.network/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-
+    
 
     {{ if .Site.Params.RSSLink }}
         <link href="{{ .Site.Params.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -73,9 +73,11 @@
       });
     </script>
 </head>
+
 <body class="nav-closed">
   <div class="se-pre-con"></div>
 <div id="particles-js"></div>
   {{ partial "navigation.html" . }}
 
  <div class="site-wrapper">
+   
