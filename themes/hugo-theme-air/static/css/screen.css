@@ -2247,7 +2247,7 @@ canvas {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 1000px) {
+@media screen and (min-height: 1000px) {
   .sidenav {
     opacity: 0;
   }
