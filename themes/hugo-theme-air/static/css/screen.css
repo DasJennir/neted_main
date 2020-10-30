@@ -2216,7 +2216,7 @@ canvas {
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 130px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -2247,11 +2247,11 @@ canvas {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 1000px) {
   .sidenav {
-    padding-top: 15px;
+    opacity: 0;
   }
   .sidenav a {
-    font-size: 18px;
+    opacity: 0;
   }
 }
