@@ -17,6 +17,8 @@
     10. Media Queries (Tablet)
     11. Media Queries (Mobile)
     12. Animations
+    *13. Loading Screen
+    *14. NavBar
 
 */
 
@@ -2107,91 +2109,8 @@ body:not(.post-template) .post-title {
 }
 
 /* ==========================================================================
-   End of file. Animations should be the last thing here. Do not add stuff
-   below this point, or it will probably fuck everything up.
+   Loading Screen
    ========================================================================== */
-
-/* ---- reset ---- */
-
-body {
-  margin: 0;
-  /*font: normal 75% Arial, Helvetica, sans-serif;*/
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-/* ---- particles.js container ---- */
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #2fa7dc;
-  background-image: url("../images/user.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-@media only screen and (max-device-width: 1366px) {
-  #particles-js {
-    background-attachment: scroll;
-  }
-}
-/* ---- stats.js ---- */
-
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.js-count-particles {
-  font-size: 1.1em;
-}
-
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles {
-  border-radius: 0 0 3px 3px;
-}
-
-/* title header */
-
-.btn-bootstrap-2 {
-  color: white;
-  border: transparent;
-  background-color: rgba(0, 0, 0, 0.678);
-  letter-spacing: 5px;
-}
-
-/* loading screen */
 
 .no-js #loader {
   display: none;
@@ -2213,7 +2132,10 @@ canvas {
     center no-repeat #fff;
 }
 
-/* The sidebar menu */
+/* ==========================================================================
+   SideBar Menu
+   ========================================================================== */
+
 @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 }
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
@@ -2229,7 +2151,6 @@ text-align: center;
 vertical-align: middle;
 font-size:20px;
 }
-
 
 .main-menu:hover,nav.main-menu.expanded {
 width:250px;
@@ -2349,3 +2270,89 @@ height: 100%;
     display: none ;
   }
 }
+
+/* ==========================================================================
+   End of file. Animations should be the last thing here. Do not add stuff
+   below this point.
+   ========================================================================== */
+
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  /*font: normal 75% Arial, Helvetica, sans-serif;*/
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2fa7dc;
+  background-image: url("../images/user.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  #particles-js {
+    background-attachment: scroll;
+  }
+}
+/* ---- stats.js ---- */
+
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+/* title header */
+
+.btn-bootstrap-2 {
+  color: white;
+  border: transparent;
+  background-color: rgba(0, 0, 0, 0.678);
+  letter-spacing: 5px;
+}
+
