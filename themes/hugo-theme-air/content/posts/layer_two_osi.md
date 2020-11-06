@@ -16,7 +16,7 @@ The OSI model has been already explained on this website if you are not sure wha
 
 **Layer 2:**
 
-Data link layer (layer 2 from the osi model) is responsible for the transport of frames between nodes (computer, laptops, servers, etc) between a network segment among the physical layer. Any errors and corruptions during the process of frames is corrected and fixed by this layer protocols therefore providing integrity and confidentiality.
+Data link layer (layer 2 from the osi model) is responsible for the transport of frames between nodes (computer, laptops, servers, etc) among the physical layer (e.g:coper wires). Any errors and corruptions during the process of frames is corrected and fixed by this layer protocols therefore providing integrity and confidentiality.
 
 **Integrity Check:**
 

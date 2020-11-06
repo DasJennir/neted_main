@@ -5,24 +5,26 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" What is the OSI model &middot;  NETED" />
+  	<meta property="og:title" content=" What is the TCP/IP model and why are people adopting it over OSI &middot;  NETED" />
   	<meta property="og:site_name" content="NETED" />
-  	<meta property="og:url" content="/posts/osi-model/" />
+  	<meta property="og:url" content="/posts/tcp-ip-model/" />
     
     
   	<meta property="og:type" content="article" />
 
-    <meta property="og:article:published_time" content="2020-10-27T00:00:00Z" />
+    <meta property="og:article:published_time" content="2020-10-30T00:00:00Z" />
 
     
     <meta property="og:article:tag" content="Networking" />
     
     <meta property="og:article:tag" content="OSI" />
     
+    <meta property="og:article:tag" content="Model" />
+    
     
 
   <title>
-     What is the OSI model &middot;  NETED
+     What is the TCP/IP model and why are people adopting it over OSI &middot;  NETED
   </title>
 
     <meta name="description" content="This is a website made to help students and people interest in computer network to solve their problems and teach what is neccessary to be success in the IT field" />
@@ -46,7 +48,7 @@
     
     <meta name="generator" content="Hugo 0.68.3" />
 
-    <link rel="canonical" href="/posts/osi-model/" />
+    <link rel="canonical" href="/posts/tcp-ip-model/" />
 
      
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -96,7 +98,7 @@
   <article class="post posts">
 
     <header class="post-header">
-        <h1 class="post-title">What is the OSI model</h1>
+        <h1 class="post-title">What is the TCP/IP model and why are people adopting it over OSI</h1>
         <section class="post-meta">
         
          
@@ -104,18 +106,23 @@
          
           <span class="post-tag small"><a href="https://www.neted.network/tags/osi/">#OSI</a></span>
          
+          <span class="post-tag small"><a href="https://www.neted.network/tags/model/">#Model</a></span>
+         
         </section>
     </header>
 
     <section class="post-content">
-      <p>The OSI model is a table which network engineers have created to facilitate the interpretation of the various computer networking &ldquo;steps&rdquo; that takes places though the whole process of sending data to a node to another. Abstracting it in a way that makes more sense to people which are not used to this subject or students that are starting to learn about it.</p>
-<p><strong><em>Short History, How the model was created:</em></strong></p>
-<p>In the early- and mid-1970s, networking was largely either government-sponsored or vendor-developed with proprietary standards, such as IBM&rsquo;s. The Experimental Packet Switched System in the UK circa 1973-5 identified the need for defining higher level protocols.</p>
-<p>The UK National Computing Centre publication &lsquo;Why Distributed Computing&rsquo; which came from considerable research into future configurations for computer systems,resulted in the UK presenting the case for an international standards committee to cover this area at the ISO meeting in Sydney in March 1977.</p>
-<p>In 1983, the ISO documents were merged to form The Basic Reference Model for Open Systems Interconnection usually referred to as the Open Systems Interconnection Reference Model, OSI Reference Model, or simply OSI model. It was published in 1984 by both the ISO, and CCITT therefore officially creating the model once for all.</p>
-<p><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjamdatadude.files.wordpress.com%2F2010%2F08%2Fosi-model.png&amp;f=1&amp;nofb=1" alt="OSI Table"></p>
-<p>I will be posting a topic for each specific layer on this website, explaining their purpose, devices and the types of data unit used.</p>
-<p>Please feel free to leave any suggestion or questions regarding this topic right below :)</p>
+      <p>The TCP/IP model is just like any other computer network model invented and adopted by people to abstract and represent the &ldquo;steps&rdquo; in which the data that we send and receive though a computer network the most known being the internet.</p>
+<p>This model was created by IETF RFC 1122, Internet STD 3 (1989) (I will be providing link of the documentation in the end of the article) which was mostly invented for the sake of simplicity. Overtime after the creation of the first model (OSI) network engineer started to see that layer 7,6,5 could all be together in one unique and unified layer that is now represented by the application layer of the TCP/IP model.</p>
+<p><img src="https://1.bp.blogspot.com/-gdZOMP_8Et4/WTkK6gAKRQI/AAAAAAAACzw/XhDjcUcKGhACYw2URSTEqty4Q7hVOs76ACLcB/s1600/Screen%2BShot%2B2017-06-08%2Bat%2B1.59.05%2BPM.png" alt="TCP/IP model"></p>
+<p>Some models nowadays even adobt only 3 layers like the Arpanet model, but we mostly use the TCP/IP model as refference nowadays. Layers 7,6,5 were not really the biggest concern for us network engineers or enthusiastics, only the first four layers were being mostly used. Remember that the reason why we have a model is to get a complex problem and brake it down into smaller pieces to make it as clear as possible for people to undersatnad. So the adoption of one model over the other is just because people saw it was simplier.</p>
+<p>Is one better than the other ? not really, in the end we end up having the same thing the only difference being the amount of names that you have to memorize :p. Imagine it like a networking blueprint each person will specialize in one area like trasport and someone else into data link, in the end the model doesn&rsquo;t matter because the abstraction ends up being the same. Imagine a situation which a software engeenier (layer 7,6,5) would have something related to a network engeeniers (layer 1,2,3,4) and vice versa,the result would be a disaster, the models are just there to abstract what decision each person does in the end of the day !</p>
+<p>References:</p>
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc1122">https://tools.ietf.org/html/rfc1122</a> (RFC 1122, Internet STD 3 (1989))</li>
+<li><a href="https://tools.ietf.org/html/rfc871">https://tools.ietf.org/html/rfc871</a> (Arpanet Reference Model (RFC 871) )</li>
+<li><a href="https://en.wikipedia.org/wiki/Internet_protocol_suite">https://en.wikipedia.org/wiki/Internet_protocol_suite</a> (Internet protocol suite)</li>
+</ul>
 
     </section>
 
@@ -137,11 +144,11 @@
     
     <section class="share">
       <h4>Share this posts</h4>
-      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=What%20is%20the%20OSI%20model&amp;url=%2fposts%2fosi-model%2f"
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=What%20is%20the%20TCP%2fIP%20model%20and%20why%20are%20people%20adopting%20it%20over%20OSI&amp;url=%2fposts%2ftcp-ip-model%2f"
           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <span class="hidden">Twitter</span>
       </a>
-      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2fosi-model%2f"
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fposts%2ftcp-ip-model%2f"
           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
           <span class="hidden">Facebook</span>
       </a>

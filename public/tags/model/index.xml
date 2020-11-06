@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model on NETED</title>
+    <link>/tags/model/</link>
+    <description>Recent content in Model on NETED</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/model/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is the TCP/IP model and why are people adopting it over OSI</title>
+      <link>/posts/tcp-ip-model/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tcp-ip-model/</guid>
+      <description>The TCP/IP model is just like any other computer network model invented and adopted by people to abstract and represent the &amp;ldquo;steps&amp;rdquo; in which the data that we send and receive though a computer network the most known being the internet.
+This model was created by IETF RFC 1122, Internet STD 3 (1989) (I will be providing link of the documentation in the end of the article) which was mostly invented for the sake of simplicity.</description>
+    </item>
+    
+  </channel>
+</rss>

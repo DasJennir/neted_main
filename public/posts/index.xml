@@ -6,11 +6,43 @@
     <description>Recent content in Posts on NETED</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>All rights reserved - 2016</copyright>
-    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <copyright>All rights reserved - 2020</copyright>
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Layer 2 OSI Model</title>
+      <link>/posts/post-title/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/post-title/</guid>
+      <description>The OSI model has been already explained on this website if you are not sure what this is I highly suggest you to have a look there before you start reading this article.
+Layer 2:
+Data link layer (layer 2 from the osi model) is responsible for the transport of frames between nodes (computer, laptops, servers, etc) between a network segment among the physical layer. Any errors and corruptions during the process of frames is corrected and fixed by this layer protocols therefore providing integrity and confidentiality.</description>
+    </item>
+    
+    <item>
+      <title>What is the TCP/IP model and why are people adopting it over OSI</title>
+      <link>/posts/tcp-ip-model/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tcp-ip-model/</guid>
+      <description>The TCP/IP model is just like any other computer network model invented and adopted by people to abstract and represent the &amp;ldquo;steps&amp;rdquo; in which the data that we send and receive though a computer network the most known being the internet.
+This model was created by IETF RFC 1122, Internet STD 3 (1989) (I will be providing link of the documentation in the end of the article) which was mostly invented for the sake of simplicity.</description>
+    </item>
+    
+    <item>
+      <title>Layer 1 OSI Model</title>
+      <link>/posts/layer-one/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/layer-one/</guid>
+      <description>The OSI model has been already explained on this website if you are not sure what this is I highly suggest you to have a look there before you start reading this article.
+Layer 1 :
+The physical layer is the first and lowest layer of the OSI model. It represents the hardware involved during the transport of bits (data) though a computing network. Examples of devices from the first layer are copper cables, hubs, and NICs (network interface card).</description>
+    </item>
     
     <item>
       <title>What is computer networking ?</title>
@@ -19,8 +51,8 @@
       
       <guid>/posts/computer-network/</guid>
       <description>What is computing networking ? in fact that is a very complex question to be answered if we consider ever aspect of it, but we can sum it up with the following: Explanation:
-A computer network is a digital telecommunications network for sharing resources between nodes (computer, laptops, servers, celphones, printers&amp;hellip;) which are computing devices that use a common telecommunications technology.
-Data tranmission between nodes is supported over data links consisting of physical cable media, such as twisted pait or fibre-optic cables (layer 1), or by wireless methods, such as Wi-Fi, Bluetooth, microwave transmission, or free-space optical communication.</description>
+A computer network is a digital telecommunications network for sharing resources between nodes (computer, laptops, servers, cellphones, printers&amp;hellip;) which are computing devices that use a common telecommunications technology.
+Data transmission between nodes is supported over data links consisting of physical cable media, such as twisted pait or fibre-optic cables (layer 1), or by wireless methods, such as Wi-Fi, Bluetooth, microwave transmission, or free-space optical communication.</description>
     </item>
     
     <item>
@@ -29,19 +61,8 @@ Data tranmission between nodes is supported over data links consisting of physic
       <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/osi-model/</guid>
-      <description>The OSI model is a table which network engenieers have created to facilitate the interpretation of the various computer networking &amp;ldquo;steps&amp;rdquo; that takes places though the whole process of sending data to a node to another. Abstracting it in a way that makes more sense to people which are not used to this subject or students that are startining to learn about it.
+      <description>The OSI model is a table which network engineers have created to facilitate the interpretation of the various computer networking &amp;ldquo;steps&amp;rdquo; that takes places though the whole process of sending data to a node to another. Abstracting it in a way that makes more sense to people which are not used to this subject or students that are starting to learn about it.
 Short History, How the model was created:</description>
-    </item>
-    
-    <item>
-      <title>Layer 1 OSI Model</title>
-      <link>/posts/layer-one/</link>
-      <pubDate>Sat, 12 Jul 2014 10:54:24 +0200</pubDate>
-      
-      <guid>/posts/layer-one/</guid>
-      <description>The OSI model has been already explained on this website if you are not sure what this is I highly suggest you to have a look there before you start reading this article.
-Layer 1 :
-The physical layer is the first and lowest layer of the OSI model. It represents the hardware involved during the tranports of bits (data) though a computing network. Examples of devices from the first layer are copper cables, hubs, and NICs (network interface card).</description>
     </item>
     
   </channel>
