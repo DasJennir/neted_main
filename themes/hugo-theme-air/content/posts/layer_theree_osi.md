@@ -20,7 +20,7 @@ As you can already imagine the hardware that plays the biggest role during the n
 
 **Router:**
 
-Network Topologies would really be meaningless without its "backbone" the router serves as the administrator of the MAC addresses table for the local network, forward the request to the DNS server if it does not have it saved in its cache already, serves as the barrier between you and the internet (considering the fact that you don't have a firewall in front of everything) therefore protecting your privacy (most of the time) and much more.
+Network Topologies would really be meaningless without its "backbone" the router serves as the administrator of the MAC addresses table for the local network, forward the request to the DNS server if it does not have it saved in its cache already, serves as the barrier between you and the internet (considering the fact that you don't have a firewall in front of everything) therefore protecting your privacy (most of the time) and translates your private IP address to a public one (NAT Network Address Translation) and much more.
 
 **Protocols:**
 
