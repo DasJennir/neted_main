@@ -23,5 +23,5 @@ theme = "hugo-theme-air"
   githubName = "indiafoxtrot"
   twitterName = "RexFoxtrot"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = true
+  hideHUGOSupport = false
   mainSections = ["post"]
