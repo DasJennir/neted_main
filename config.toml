@@ -16,7 +16,7 @@ theme = "hugo-theme-air"
   description = "A Networking Website 😄❤️🌐"
   cover = "images/user.jpeg"
   author = "Foxtrot"
-  logo = ""
+  logo = "images/user.jpeg"
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""
