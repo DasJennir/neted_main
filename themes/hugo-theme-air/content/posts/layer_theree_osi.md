@@ -2,9 +2,9 @@
 date = "2020-11-11"
 draft = false
 title = "Layer 3 OSI Model"
-slug = "post-title"
+slug = "layer-three"
 tags = ["OSI","Networking"]
-image = ""
+image = "https://storage.needpix.com/rsynced_images/network-4028019_1280.jpg"
 share = true	# set false to hide share buttons
 menu= ""		# set "main" to add this content to the main menu
 author = ""

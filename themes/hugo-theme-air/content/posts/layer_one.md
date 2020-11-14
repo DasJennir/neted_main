@@ -4,7 +4,7 @@ draft = false
 title = "Layer 1 OSI Model"
 slug = "layer-one"
 tags = ["OSI","Networking"]
-image = ""
+image = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.fiber-optical-networking.com%2Fwp-content%2Fuploads%2F2018%2F10%2Ffiber-optic-cable-installation.jpg&f=1&nofb=1"
 comments = true	# set false to hide Disqus
 share = true	# set false to hide share buttons
 menu= ""		# set "main" to add this content to the main menu

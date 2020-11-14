@@ -2,9 +2,9 @@
 date = "2020-11-04"
 draft = false
 title = "Layer 2 OSI Model"
-slug = "post-title"
+slug = "layer-two"
 tags = ["OSI","Networking"]
-image = ""
+image = "https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555347594/shape/mentalfloss/e_27.png"
 share = true	# set false to hide share buttons
 menu= ""		# set "main" to add this content to the main menu
 author = ""
