@@ -13,7 +13,7 @@ theme = "hugo-theme-air"
     post = "/post/:year/:month/:day/:slug"
 
 [params]
-  description = "A Networking Website 😄❤️🌐"
+  description = "A Computer Networking Website 😄❤️🌐"
   cover = "images/user.jpeg"
   author = "Foxtrot"
   logo = "images/user.jpeg"
