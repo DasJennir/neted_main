@@ -2,7 +2,7 @@
 date = "2020-11-17"
 draft = false
 title = "Layer 4 OSI Model"
-slug = "config-review"
+slug = "layer-four"
 tags = ["OSI","Networking"]
 image = "https://cdn.pixabay.com/photo/2018/06/13/15/17/network-3472956_1280.jpg"
 comments = true	# set false to hide Disqus
