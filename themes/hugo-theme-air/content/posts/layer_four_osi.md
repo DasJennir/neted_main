@@ -11,13 +11,13 @@ menu= ""		# set "main" to add this content to the main menu
 author = ""
 +++
 
-![Main Image](https://www.wannapik.com/media/W1siZiIsIjIwMTYvMDgvMjIvOHF0MmJtM25ueF80anh2aWR2bGIyX3Blb3AxOTE5LnBuZyJdXQ/b8d4e25eb539d8f5/4jxvidvlb2_peop1919.png)
+![Main Image](https://stemjar.b-cdn.net/wp-content/uploads/2018/04/computer-networking-basics-696x464.jpg)
 
 **High Level Explanation:**
 
 Transport layer is very self explanatory by itself, it will be responsible for the for the delivery of the package. Imagine that you as a person can send the letter to a address (layer three) but who actually make sure that the latter will reach the right person ? that is right the mail person (layer four). It controls and responds if the node in which the "address" is destined to is reachable and if not how to handle it (error control). And what if you send a huge component let's say a industrial machine, you can't really send it using only one package or transport that is when the "mail person" will choose which boxes to use or if it will be transported via plane, ship, truck etc (Segmentation)
 
-**Low Level Explanation:** [link to which I took this paragraph from](https://en.wikipedia.org/wiki/OSI_model#Layer_4:_Transport_Layer)
+**Low Level Explanation:** [reference where I have taken this paragraph](https://en.wikipedia.org/wiki/OSI_model#Layer_4:_Transport_Layer)
 
 The transport layer controls the reliability of a given link through flow control, segmentation/desegmentation, and error control. Some protocols are state- and connection-oriented (TCP). This means that the transport layer can keep track of the segments and retransmit those that fail delivery. The transport layer also provides the acknowledgement of the successful data transmission and sends the next data if no errors occurred. The transport layer creates segments out of the message received from the application layer. Segmentation is the process of dividing a long message into smaller messages.
 
@@ -25,7 +25,7 @@ In other words the layer four is also the spokesperson between layer 3 and 5,6, 
 
 **~~Hardware:~~**
 
-This layer doesn't really have any hardware, bacause its only purpose is mainly focused about two protocols which will be discuss next.
+This layer doesn't really have any hardware, because its only purpose is mainly managing protocols.
 
 **Protocols:**
 
